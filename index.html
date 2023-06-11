@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio book reader</title>
+    <!-- v4 -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/tesseract.js@2.1.0/dist/tesseract.min.js"
+      defer
+    ></script>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <video width="720" height="560" autoplay muted></video>
+      <pre data-text style="font-size: 2rem"></pre>
+    </div>
+    <div class="instructions">
+      <h1>Audio Book Reader</h1>
+      <h2>Intructions</h2>
+      <ul>
+        <li>Allow for permission to use Camera</li>
+        <li>
+          place a text to be read infront of the camera and make sure the camera
+          <br />
+          focuses on the text
+        </li>
+        <li>Press the "Space" button</li>
+        <li>The app will procces the text and read it out</li>
+      </ul>
+    </div>
+  </body>
+</html>
